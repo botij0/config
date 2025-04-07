@@ -76,4 +76,31 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 p10k configure
 ```
 
+## ZSH Plugins
+
+### Auto-Suggestions
+
+1. Download it:
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+2. Add it to `plugins` insisde `~/.zshrc`:
+```bash
+plugins=(git zsh-autosuggestions)
+```
+
+### Syntax Higlighting
+
+1. Download it:
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+2. Add it to `plugins` insisde `~/.zshrc`:
+```bash
+plugins=(git zsh-syntax-highlighting)
+```
+
+> [!NOTE]
+> After the instalattion of the plugins, the `plugins` var shlould be:
+> `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
    
