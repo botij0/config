@@ -168,10 +168,13 @@ curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 ```
 
 ### FZF
-[FZF](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy finder. Used for Zoxide (Just below). 
+[FZF](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy finder.
 ```bash
 brew install fzf
 ```
+With the configuration of `.zshrc` you have the following shortcuts:
+- `Ctrl + T`: search files and directories from the current directory.
+- `Alt + C`: search only directories from the current directory.
 
 ### Zoxide
 [Zoxide](https://github.com/ajeetdsouza/zoxide) is a smarter cd command. It remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes. 
@@ -179,7 +182,15 @@ brew install fzf
 ```bash
 brew install zoxide
 ```
-
+To use it you should follow:
+1. go to the directory you want at least one time with `cd` command
+```bash
+cd path/to/directory
+```
+2. now you are able to access this directory from anywhere with the command:
+```bash
+z name-directory
+```
 
 
 ## Other Utilities
