@@ -113,7 +113,33 @@ plugins=(git zsh-syntax-highlighting)
 > After the instalattion of the plugins, the `plugins` var shlould be:
 > `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
 
-## Utilities
+## Main Utilities
+> [!IMPORTANT]
+> If you install all the dependencies in this section, you can copy the lines inside `.zshrc` into your `~/.zshrc` for the specific configuration.
+> If not, you should check special tutorial for each dependency.
+
+## Bat
+A cat(1) clone with syntax highlighting and Git integration.
+```
+brew install bat
+```
+
+### FZF
+fzf is a general-purpose command-line fuzzy finder. Used for Zoxide (Just below)
+```bash
+brew install fzf
+```
+
+### Zoxide
+zoxide is a smarter cd command. It remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes.
+
+```bash
+brew install zoxide
+```
+
+
+
+## Other Utilities
 
 This section contains some dependencies/utilities that can be usefull depends on the project you are working on.
 
