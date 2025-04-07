@@ -161,11 +161,15 @@ A modern replacement for ls. [EZA](https://github.com/eza-community/eza)
 brew install eza
 ```
 
+With the configuration of `.zshrc` you can use it just with the command `ls`
+
 ### Atuin
 Sync, search and backup shell history with [Atuin](https://atuin.sh/)
 ```bash
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 ```
+
+Use it in the terminal with the `up arrow` of the keyboard.
 
 ### FZF
 [FZF](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy finder.
