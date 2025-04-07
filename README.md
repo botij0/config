@@ -31,6 +31,15 @@ Install the ***Windows Terminal*** app available in Microsoft Store.
 
 You can custimize it with the graphical interface.
 
+## HomeBrew
+Homebrew is a package manager for macOS or Linux. Hombrew is easy and don't need `sudo`.
+
+To install it:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+And Follow the instructions on screen.
+
 ## ZSH + Oh my Zsh + Powerlevel10k
 
 ### ZSH
@@ -103,4 +112,42 @@ plugins=(git zsh-syntax-highlighting)
 > [!NOTE]
 > After the instalattion of the plugins, the `plugins` var shlould be:
 > `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
+
+## Utilities
+
+This section contains some dependencies/utilities that can be usefull depends on the project you are working on.
+
+All of this are optional.
+
+### zip/unzip
+```bash
+brew install unzip
+```
+```bash
+brew install zip
+```
+
+### Kubectl/k9s
+For kubernetes managment:
+```bash
+brew install kubectl
+```
+```bash
+brew install derailed/k9s/k9s
+```
+
+### NVM (Node Version Manager)
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+```
+Once installed, you can install a specific version of Node:
+```bash
+nvm install node-version
+```
+You can specify the version of node to use:
+```bash
+node use 14
+```
+
+
    
