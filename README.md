@@ -118,20 +118,32 @@ plugins=(git zsh-syntax-highlighting)
 > If you install all the dependencies in this section, you can copy the lines inside `.zshrc` into your `~/.zshrc` for the specific configuration.
 > If not, you should check special tutorial for each dependency.
 
-## Bat
-A cat(1) clone with syntax highlighting and Git integration.
+### Bat
+A cat(1) clone with syntax highlighting and Git integration. [Bat](https://github.com/sharkdp/bat)
 ```
 brew install bat
 ```
 
+### EZA
+A modern replacement for ls. [EZA](https://github.com/eza-community/eza)
+```bash
+brew install eza
+```
+
+### Atuin
+Sync, search and backup shell history with [Atuin](https://atuin.sh/)
+```bash
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+```
+
 ### FZF
-fzf is a general-purpose command-line fuzzy finder. Used for Zoxide (Just below)
+[FZF](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy finder. Used for Zoxide (Just below). 
 ```bash
 brew install fzf
 ```
 
 ### Zoxide
-zoxide is a smarter cd command. It remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes.
+[Zoxide](https://github.com/ajeetdsouza/zoxide) is a smarter cd command. It remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes. 
 
 ```bash
 brew install zoxide
