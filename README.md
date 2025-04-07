@@ -1,6 +1,33 @@
 # Work Environment Config Guide
 Configuration/Resources for my work environment in Linux
 
+## Table of Contents
+- [Requirements](#requirements)
+    - [Optional: Install WSL2](#optional-install-wsl2)
+- [Font](#font)
+- [Terminals](#terminals)
+    - [WezTerm](#wezterm)
+    - [Windows Terminal](#windows-terminal)
+- [HomeBrew](#homebrew)
+- [ZSH + Oh My Zsh + Powerlevel10k](#zsh--oh-my-zsh--powerlevel10k)
+    - [ZSH](#zsh)
+    - [Oh My ZSH](#oh-my-zsh)
+    - [PowerLevel10k](#powerlevel10k)
+- [ZSH Plugins](#zsh-plugins)
+    - [Auto-Suggestions](#auto-suggestions)
+    - [Syntax Higlighting](#syntax-higlighting)
+- [Main Utilities](#main-utilities)
+    - [Bat](#bat)
+    - [EZA](#eza)
+    - [Atuin](#atuin)
+    - [FZF](#fzf)
+    - [Zoxide](#zoxide)
+- [Other Utilities](#other-utilities)
+    - [zip/unzip](#zipunzip)
+    - [Kubectl/k9s](#kubectlk9s)
+    - [NVM (Node Version Manager)](#nvm-node-version-manager)
+
+
 ## Requirements
 A Linux based system is required. If you have windows you can use WSL2.
 
@@ -10,6 +37,13 @@ Open a Windows PowerShell terminal and enter:
 ```shell
 wsl --install
 ```
+
+## Font
+
+The font used is [Cascadia Code](https://github.com/microsoft/cascadia-code)
+
+> [!IMPORTANT]
+> To see the icons correctly in the terminal, you should have installed a Nerd Font [Nerd Fonts](https://www.nerdfonts.com/font-downloads) or similars
 
 ## Terminals
 There are many terminals. My current recomendation is `WezTerm`
@@ -43,9 +77,6 @@ And Follow the instructions on screen.
 ## ZSH + Oh my Zsh + Powerlevel10k
 
 ### ZSH
-
-> [!IMPORTANT]
-> To see the icons correctly in the terminal, you should have installed a Nerd Font [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
 1. Install zsh:
 ```bash
