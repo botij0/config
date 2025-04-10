@@ -43,7 +43,8 @@ wsl --install
 The font used is [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 > [!IMPORTANT]
-> To see the icons correctly in the terminal, you should have installed a Nerd Font [Nerd Fonts](https://www.nerdfonts.com/font-downloads) or similars
+> To see the icons correctly in the terminal, you should have installed a Nerd Font [Nerd Fonts](https://www.nerdfonts.com/font-downloads) or similars.
+> There is one similar to Cascadia Code, called Caskaydia Cove.
 
 ## Terminals
 There are many terminals. My current recomendation is `WezTerm`
