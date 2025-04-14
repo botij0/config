@@ -1,3 +1,6 @@
+# Homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # Zoxide
 eval "$(zoxide init zsh)"
 
