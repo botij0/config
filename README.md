@@ -175,7 +175,9 @@ plugins=(git zsh-syntax-highlighting)
 
 > [!NOTE]
 > After the instalattion of the plugins, the `plugins` var shlould be:
-> `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
+> ```
+> plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+> ```
 
 ## Main Utilities
 
